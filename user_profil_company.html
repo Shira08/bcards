@@ -34,7 +34,7 @@
     </noscript>
 </head>
 
-<body id="body">
+<body id="body" class="m-0 p-0">
     <div class="container" style="overflow: hidden;">
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-12">
@@ -109,40 +109,46 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
 
                                 </div>
-                                <div>
-                                    <button type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">O</button>
-                                    </div>
+                                <div class="modal-btn-ctn">
+                                    <a type="button" class=" float-end mx-3 rounded-circle px-2 py-2" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"><i class="fa fa-pen"></i></a>
+                                </div>
                                 <div>
 
-                                    
-                                    <div class="modal fade pe-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-                                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body">
-                                            <form>
-                                              <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                              </div>
-                                              <div class="mb-3">
-                                                <label for="message-text" class="col-form-label">Message:</label>
-                                                <textarea class="form-control" id="message-text"></textarea>
-                                              </div>
-                                            </form>
-                                          </div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Send message</button>
-                                          </div>
+
+                                    <div class="modal fade pe-0" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="recipient-name"
+                                                                class="col-form-label">Recipient:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="message-text"
+                                                                class="col-form-label">Message:</label>
+                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Send message</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                      </div>
                                     </div>
                                 </div>
                             </div>

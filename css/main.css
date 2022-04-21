@@ -474,7 +474,12 @@ footer a:not(.nav-link) {
 
 }
 
-.comp-bod
+.modal-btn-ctn a
 {
-  overflow: hidden !important;
+  background-color: #1D2150;
+  color: white;
+}
+.modal-btn-ctn button:focus
+{
+  
 }
