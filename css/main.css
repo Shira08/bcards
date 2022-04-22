@@ -492,8 +492,9 @@ footer a:not(.nav-link) {
 {
   border: none !important;
 }
-#flexSwitchCheckChecked
+.form-check-input
 {
   color:#03ECAE !important;
+  background-color: #03ECAE;
   box-shadow: 0;
 }
