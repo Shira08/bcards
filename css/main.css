@@ -485,5 +485,5 @@ footer a:not(.nav-link) {
 }
 .modal-body .form-group input
 {
-  
+  border: none !important;
 }
