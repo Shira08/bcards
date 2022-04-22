@@ -483,6 +483,10 @@ footer a:not(.nav-link) {
 {
   
 }
+.social input
+{
+  border-bottom: 1px solid gray;
+}
 .modal-body .form-group input 
 {
   border: none !important;
