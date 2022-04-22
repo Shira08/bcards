@@ -483,7 +483,11 @@ footer a:not(.nav-link) {
 {
   
 }
-.modal-body .form-group input textarea
+.modal-body .form-group input 
+{
+  border: none !important;
+}
+.modal-body .form-group textarea 
 {
   border: none !important;
 }
