@@ -494,7 +494,11 @@ footer a:not(.nav-link) {
 }
 .form-check-input
 {
-  color:#03ECAE !important;
-  background-color: #03ECAE;
-  box-shadow: 0;
+  color: white;
+  background-color: #03ECAE !important;
+  border: none;
+}
+.form-check-input:focus
+{
+  box-shadow: none;
 }
