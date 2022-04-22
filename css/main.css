@@ -477,16 +477,20 @@ footer a:not(.nav-link) {
 {
   color: #03ECAE;
 }
-.company_links .links-container
+.company_links .links-container , .particular_links .links-container
 {
   background-color: #1D2150;
 }
-.company_links a i
+.company_links a i, .particular_links a i
 {
   font-size: 50px;
   color: white;
 }
-
+.particular_links a i
+{
+  font-size: 40px;
+  color: white;
+}
 .modal-btn-ctn a
 {
   background-color: #03ECAE;
