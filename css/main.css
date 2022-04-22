@@ -473,7 +473,10 @@ footer a:not(.nav-link) {
   background-color: #1D2150;
 
 }
-.name
+.company_profil_body .name ,.user_bio span
+{
+  color: #03ECAE;
+}
 .company_links .links-container
 {
   background-color: #1D2150;
