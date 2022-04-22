@@ -502,7 +502,7 @@ footer a:not(.nav-link) {
 {
   box-shadow: none;
 }
-.success_message
+.result_message
 {
-  c
+  color: red;
 }
