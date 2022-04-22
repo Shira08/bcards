@@ -492,3 +492,8 @@ footer a:not(.nav-link) {
 {
   border: none !important;
 }
+#flexSwitchCheckChecked
+{
+  color:#03ECAE !important;
+  box-shadow: 0;
+}
